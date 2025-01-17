@@ -23,7 +23,7 @@ mongoose.connect(process.env.MY_DB_PASS)
     
 });
 
-// My Middleware
+
 app.use(errorHandler)
 app.use(express.urlencoded({extended:true}))
 app.use(express.json)
